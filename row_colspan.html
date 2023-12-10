@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Learning colspan and rowspan
+        </title>
+       <style>
+         table,td,th{
+            border:2px solid black;
+            height: 50px;
+            width: 100px;
+            background-color:yellow;
+        }
+        table{
+            border-collapse: collapse;
+        }
+       </style>
+    </head>
+    <body>
+        <table>
+           
+            <thead>
+                <tr>  
+                    <th>Name</th>
+                    <th colspan="2">Telephone</th>
+                   </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                    <td>Mukter</td><td>01634217936</td><td>0140277558</td>
+                </tr>
+                <tr>
+                    <td>Anis</td>
+                    <td colspan="2">0178645648</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Acessable table
+        </title>
+        <style>
+            table,td,th{
+                height: 40px;width: 300px;
+            }
+            table,td,th{
+                border: 1px solid black;
+                border-collapse: collapse;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>HTML table</h1>
+        </header>
+        <main>
+            <table>
+                <caption>Student Info.</caption>
+                <colgroup>
+                    <col span="1" style="background-color: brown;"/>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th><th scope="col">Name</th><th scope="col">GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">101</td><td>Mukter</th><td>3.40</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">102</th><td>Masom</td><td>3.50</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">103</th><td>Anis</td><td>3.73</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">104</th><td>Rakib</td><td>3.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

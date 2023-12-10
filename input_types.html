@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Input types
+        </title>
+    </head>
+    <body>
+        <h2>Registration form</h2>
+        <form>
+           <div id="1">  <label for="fullname">Full name :</label>
+            <input type="text" name="fullname" id="fullname" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="date" id="date">
+        </div>  
+        <br>
+        <div>
+            <label for="pic">Photo :</label>
+            <input type="file" name="pic" id="pic">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </div>
+        <br>
+        <div>
+            <label for="religion">Religion :</label>
+            <input checked type="checkbox" name="religion" id="religion" value="muslim">Muslim
+            <input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+            <input type="checkbox" name="religion" id="religion" value="christian">Christian
+        </div>
+        <br>
+        <div>
+            <label for="department" >Department</label>
+            <select name="department">
+                <option value="choice">choices</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="BTE">BTE</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="message" >Message :</label><br>
+            <textarea cols="40" rows="5"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+    </body>
